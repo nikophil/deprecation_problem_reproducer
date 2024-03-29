@@ -1,0 +1,28 @@
+{
+    "name": "nikophil/deprecation_problem_reproducer",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nicolas PHILIPPE",
+            "email": "nikophil@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "symfony/error-handler": "^7.0",
+        "symfony/dotenv": "^7.0"
+    },
+    "require-dev": {
+        "zenstruck/foundry": "^1.37",
+        "phpunit/phpunit": "^11.0"
+    }
+}
